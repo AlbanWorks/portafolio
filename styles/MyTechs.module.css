@@ -1,0 +1,137 @@
+.myTechs{
+    box-sizing: border-box;
+    width: 30%;
+    border-radius: 3px;
+    max-width: 500px;
+    max-height: 800px;
+    height: 90%;
+    background-color:rgba(31, 31, 31, 0.55);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.myTechs:hover{
+    box-shadow:inset 0px 0px 0px 2px rgb(161, 25, 25);
+    -webkit-box-shadow:inset 0px 0px 0px 2px rgb(161, 25, 25);
+    -moz-box-shadow:inset 0px 0px 0px 2px rgb(161, 25, 25);  
+}
+
+.title{
+    font-size: 28px;
+}
+
+.techList{
+    width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.tech{
+width: 100px;
+height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+transition: all 0.4s;
+}
+.tech p {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0);
+}
+
+.tech:hover{
+    color: rgb(204, 32, 32);
+}
+
+.tech:hover i{
+    font-size: 74px;
+}
+
+.tech:hover p{
+    color: rgb(228, 228, 228);
+}
+
+.tech i {
+font-size: 70px;
+}
+
+.services{
+    font-size: 17px;
+    width: 90%;
+}
+.services h5{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.tech span{
+    height: 300px;
+}
+@media only screen and (min-width: 1500px) {
+
+    .title{
+        font-size: 37px;
+    }
+
+    .tech{
+        width: 130px;
+        height: 130px;
+        font-size: 21px;
+        }
+    .tech i {
+            font-size: 95px;
+        }
+    .tech:hover i{
+            font-size: 100px;
+        }
+ }
+
+ @media only screen and (max-width: 1024px) {
+    .title{
+        font-size: 23px;
+    }
+
+    .tech{
+        width: 80px;
+        height: 80px;
+        font-size: 16px;
+        }
+    .tech i {
+            font-size: 50px;
+        }
+    .tech:hover i{
+            font-size: 54px;
+        }
+
+        .tech:active i{
+            font-size: 54px;
+        }
+
+    .myTechs{
+        width: 95%;
+        height: 45%;
+    }
+ }
+
+ @media only screen and (max-width: 600px) {
+    .services{
+        font-size: 12px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    .services h5{
+        margin: 0;
+        margin-right: 15px;
+        padding: 0;
+        font-size: 13px;
+    }
+   
+ }

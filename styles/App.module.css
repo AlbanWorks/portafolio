@@ -1,0 +1,13 @@
+
+.app{
+  width: 100vw;
+  overflow: hidden;
+  background-color: rgb(24, 24, 24);
+}
+.background{
+position: fixed;
+z-index:1;
+width: 100vw;
+height: 100vh;
+
+}
